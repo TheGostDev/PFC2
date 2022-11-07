@@ -30,5 +30,8 @@ assertion2Pt2 = (e * s < r) #false
 print(assertion2)
 #ECRIRE assertion2
 
+calcul r par seconde (salaire horaire, heure par jour ouvrable, jour ouvrable par an)
+
+calcul net (salaire brut)
 
 FIN
