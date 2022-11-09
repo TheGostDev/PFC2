@@ -1,1 +1,1 @@
-*Pierre Feuille Ciseau LARP*
+*Pierre Feuille Ciseau*
