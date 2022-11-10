@@ -60,4 +60,6 @@
             #Alors, afficher ("Nombre de round: ", nbRound, " - Vos points: ", nbPoints, " - Points robot: ", nbPointsRobot, " - Résultat: Vous remportez le pierre feuille ciseau")
         #Sinon si nbPoints == nbPointsRobot
             #Alors, afficher ("Nombre de round: ", nbRound, " - Vos points: ", nbPoints, " - Points robot: ", nbPointsRobot, " - Résultat: Egalité")
+
+#Execution de la fonction pfc()
 #FIN
