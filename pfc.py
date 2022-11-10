@@ -1,3 +1,4 @@
+#DEBUT
 #On admet une fonction random qui génère une nombre aléatoire entre 0 et 2
 
 #On définit une fonction pfc(coup, nbRound)
@@ -7,7 +8,6 @@
     #On initialise le nbPointsRobot à 0
     #On initialise la variable idCoup
     #Affichage des règles : "Vous devez gagner avec la forme la plus forte ex: Pierre > Ciseau | Ciseau > Feuille | Feuille > Pierre"
-    #"Vous devez remporter la partie en " + nbPoints + "."
     #Pour i allant de 0 à nbRound
         #Alors afficher("Round: ", round, " - Points: ", nbPoints)
         #On assigne la variable coup avec la fonction input
@@ -19,8 +19,8 @@
         #Sinon si le coup joué est "Ciseau"
             #Alors idCoup vaut 2
         #Sinon
-            #Afficher que le coup saisie n'existe pas
-        #appel de la fonction random pour faire joué un robot
+            #Afficher "Le coup saisie n'existe pas"
+        #appel de la fonction random pour faire jouer un robot
         #Si idCoup vaut 0 et que random vaut 0
             #Alors, afficher "manche null"
             #On incrémente round de 1
@@ -60,3 +60,4 @@
             #Alors, afficher ("Nombre de round: ", nbRound, " - Vos points: ", nbPoints, " - Points robot: ", nbPointsRobot, " - Résultat: Vous remportez le pierre feuille ciseau")
         #Sinon si nbPoints == nbPointsRobot
             #Alors, afficher ("Nombre de round: ", nbRound, " - Vos points: ", nbPoints, " - Points robot: ", nbPointsRobot, " - Résultat: Egalité")
+#FIN
