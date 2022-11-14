@@ -54,12 +54,12 @@
         #Sinon si idCoup vaut 2 et que random vaut 2
             #Alors, afficher "Manche null"
             #On incrément round de 1
-        #Si nbPoints inférieur à nbPointsRobot
-            #Alors, afficher ("Nombre de round: ", nbRound, " - Vos points: ", nbPoints, " - Points robot: ", nbPointsRobot, " - Résultat: Vous avez perdu le pierre feuille ciseau")
-        #Sinon si nbPoints supérieur à nbPointsRobot
-            #Alors, afficher ("Nombre de round: ", nbRound, " - Vos points: ", nbPoints, " - Points robot: ", nbPointsRobot, " - Résultat: Vous remportez le pierre feuille ciseau")
-        #Sinon si nbPoints == nbPointsRobot
-            #Alors, afficher ("Nombre de round: ", nbRound, " - Vos points: ", nbPoints, " - Points robot: ", nbPointsRobot, " - Résultat: Egalité")
+    #Si nbPoints inférieur à nbPointsRobot
+        #Alors, afficher ("Nombre de round: ", nbRound, " - Vos points: ", nbPoints, " - Points robot: ", nbPointsRobot, " - Résultat: Vous avez perdu le pierre feuille ciseau")
+    #Sinon si nbPoints supérieur à nbPointsRobot
+        #Alors, afficher ("Nombre de round: ", nbRound, " - Vos points: ", nbPoints, " - Points robot: ", nbPointsRobot, " - Résultat: Vous remportez le pierre feuille ciseau")
+    #Sinon si nbPoints == nbPointsRobot
+        #Alors, afficher ("Nombre de round: ", nbRound, " - Vos points: ", nbPoints, " - Points robot: ", nbPointsRobot, " - Résultat: Egalité")
 
 #Execution de la fonction pfc()
 #FIN
