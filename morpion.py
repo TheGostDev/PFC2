@@ -30,11 +30,11 @@ def Morpion():
     while nbPuntosEnnemie < 3 and nbPuntosPlayer < 3 :
         while not(gameFinish):
             print("",tableau[0],"\n",tableau[1],"\n",tableau[2])
-            choicePlayer[0] = input("Met ta coordonées x\n")
-            choicePlayer[1] = input("Met ta coordonées y\n")
+            choicePlayer[0] = input("Met ta coordonées y\n")
+            choicePlayer[1] = input("Met ta coordonées x\n")
             while tableau[int(choicePlayer[0])][int(choicePlayer[1])] != " ":
-                choicePlayer[0] = input("Met ta coordonées x\n")
-                choicePlayer[1] = input("Met ta coordonées y\n")
+                choicePlayer[0] = input("Met ta coordonées y\n")
+                choicePlayer[1] = input("Met ta coordonées x\n")
             tableau[int(choicePlayer[0])][int(choicePlayer[1])] = "O"
             choiceEnnemie[0] = random.randint(0,2)
             choiceEnnemie[1] = random.randint(0,2)
